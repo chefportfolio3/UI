@@ -193,3 +193,73 @@ img {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 500px){
+ 
+.nav-bar{
+  width: 85%;
+  
+}
+.nav-list{
+  flex-direction: column;
+margin-right: 20%;
+
+
+}
+.nav-list li{
+  padding: 20%;
+ align-self: center;
+ padding-right: 100%;
+ padding-left: 100%;
+ font-size: 30px;
+ color: black;
+
+}
+button{
+  display: block;
+  width: 30%;
+  flex-direction: column-reverse;
+  font-size: 20px;
+  
+}
+.row{
+  border: 1px solid black;
+  display: inline-block;
+}
+.column-left{
+ display: none;
+}
+.column-right{
+ 
+  width: 100%;
+}
+.food-recipe{
+  display: flex;
+  flex-direction: column;
+  
+}
+.food-recipe li{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: left;
+  margin-bottom: 110px;
+  margin-left: 35px;
+  
+
+}
+.food-pictures{
+  width: 50%;
+  
+}
+.food-info{
+  display: flex;
+  flex-direction: row;
+}
+.recipe-list{
+  display: inline-block;
+}
+.recipe-pic-list{
+  display: inline-block;
+}
+
+}
